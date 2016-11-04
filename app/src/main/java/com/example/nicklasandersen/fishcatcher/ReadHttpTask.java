@@ -15,7 +15,7 @@ public class ReadHttpTask extends AsyncTask<String, Void, CharSequence> {
         } catch (IOException ex) {
             cancel(true);
             String errorMessage = ex.getMessage() + "\n" + urlString;
-            Log.e("BOOK", errorMessage);
+            Log.e("CATCHES", errorMessage);
             return errorMessage;
         }
     }
