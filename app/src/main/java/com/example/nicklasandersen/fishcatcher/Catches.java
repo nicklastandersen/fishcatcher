@@ -1,8 +1,5 @@
 package com.example.nicklasandersen.fishcatcher;
 
-/**
- * Created by nicklasandersen on 04-11-16.
- */
 public class Catches {
     private int id;
     private String angler_name;
