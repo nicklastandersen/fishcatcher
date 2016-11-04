@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_768740f65cd9b1f349e89eff3d828c07a99d0224/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_3437f5b2c7e139aa565650c18df388ec9f92d7fc/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_c66aec1f3c3cffdaed2d6fe688f8119afa0e96f9/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="a1efe95d1aa11a3240978ffe0df64ab7e19967f7">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5c6ab2671fdd1c46ed2fdbccffcc54cbc2ba33a6/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_8b1d67cbbbed21c8afbce665baef86dd272dec97/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_38fc9d6a75959b96623ca0fc0f5c3091347db619/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_5e9a3c1363b37ea0d6e366eadce035a0c5f0da22/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_1c32e3f840873f9849a2e8a94343ecaec3ce5351/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_fd9eaea466d065129883482d539200f673f3e113/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_2beb807f88082ffa06f3bac8f26acfa72ccafdbe/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_e5dec832675a3b1f92156a9ee225f05921fc0af3/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_374dd75987f17b577ea9bb68bc4e2d21b91cfddb/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_cd7488db1b150c876ddea8b54ec9d1074b6d07aa/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_3327e04a462f9a7c1b5791eddac46091a22423af/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_219c70b6f0da6656a358edb4272454a18f159eb6/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_86c090a7f9e36b14227e783490a45c16d192f2ee/classes.dex" />
+    </item>
+    <item
+        jar="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="25d27048704475b655ce6f7c75646451eb806ae7">
+        <dex dex="/home/nicklasandersen/Downloads/FishCatcher/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bfb8e3b9e6ade78f813e894a7809668ddcb6e1ca/classes.dex" />
+    </item>
+
+</items>
