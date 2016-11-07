@@ -1,6 +1,8 @@
 package com.example.nicklasandersen.fishcatcher;
 
-public class Catches {
+import java.io.Serializable;
+
+public class Catches implements Serializable {
     private int id;
     private String angler_name;
     private String datetime;
