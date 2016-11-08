@@ -119,8 +119,6 @@ public class Catches implements Serializable {
 
     @Override
     public String toString() {
-        return "Catches{" +
-                "angler_name='" + angler_name + '\'' +
-                '}';
+        return angler_name;
     }
 }

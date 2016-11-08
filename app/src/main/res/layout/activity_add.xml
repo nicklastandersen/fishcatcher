@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.nicklasandersen.fishcatcher.AddActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add your Catch"
+        />
+
+    <EditText
+        android:id="@+id/add_catch_fishing_method"
+        android:layout_width="513dp"
+        android:layout_height="wrap_content"
+        android:hint="Fishing Method"
+        android:inputType="textCapWords"
+        />
+
+    <EditText
+        android:id="@+id/add_catch_angler_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Angler Name"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/add_catch_datetime"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:hint="Time and Date of Catch"
+        android:inputType="textCapWords"
+        />
+
+    <EditText
+        android:id="@+id/add_catch_breed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Breed"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/add_catch_length"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Length"
+        android:inputType="textCapWords" />
+    <EditText
+        android:id="@+id/add_catch_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/add_catch_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weather"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/add_catch_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/add_catch_latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="latitude"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/add_catch_longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="longitude"
+        android:inputType="textCapWords" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addCatches"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/add_catches_message_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

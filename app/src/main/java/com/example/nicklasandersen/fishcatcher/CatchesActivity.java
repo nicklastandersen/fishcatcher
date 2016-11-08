@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -31,7 +32,7 @@ public class CatchesActivity extends AppCompatActivity {
         task.execute("http://api.evang.dk/v1/catches");
     }
 
-    private class ReadTask extends ReadHttpTask {
+        private class ReadTask extends ReadHttpTask {
         @Override
         protected void onPostExecute(CharSequence charSequence) {
             super.onPostExecute(charSequence);
@@ -39,7 +40,8 @@ public class CatchesActivity extends AppCompatActivity {
             //messageTextView.setText(charSequence);
             final List<Catches> catchess = new ArrayList<>();
             try {
-                JSONArray array = new JSONArray(charSequence.toString());
+                JSONObject object = new JSONObject(charSequence.toString());
+                JSONArray array = object.getJSONArray("catches");
                 for (int i = 0; i < array.length(); i++) {
                     JSONObject obj = array.getJSONObject(i);
                     String angler_name = obj.getString("angler_name");
@@ -52,7 +54,7 @@ public class CatchesActivity extends AppCompatActivity {
                     String location = obj.getString("location");
                     double latitude = obj.getDouble("latitude");
                     double longitude = obj.getDouble("longitude");
-                    int id = obj.getInt("Id");
+                    int id = obj.getInt("id");
                     Catches catches = new Catches(id, angler_name, datetime, fishing_method, breed, length, weight, weather, location, latitude, longitude);
                     catchess.add(catches);
                 }
@@ -71,7 +73,7 @@ public class CatchesActivity extends AppCompatActivity {
                 });
             } catch (JSONException ex) {
                 //messageTextView.setText(ex.getMessage());
-                Log.e("BOOKS", ex.getMessage());
+                Log.e("CATCHESSs", ex.getMessage());
             }
         }
     }

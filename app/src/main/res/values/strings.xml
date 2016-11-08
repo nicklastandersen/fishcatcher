@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">FishCatcher</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all_catches">All Catches</string>
+    <string name="add_catch">Add Catch</string>
 </resources>
