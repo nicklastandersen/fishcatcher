@@ -60,8 +60,8 @@ public class CatchesActivity extends AppCompatActivity {
                 }
 
                 ListView listView = (ListView) findViewById(R.id.main_listView_catches);
-                ArrayAdapter<Catches> adapter = new ArrayAdapter<>(getBaseContext(), android.R.layout.simple_list_item_1, catchess);
-                //CatchesListItemAdapter adapter = new CatchesListItemAdapter(getBaseContext(), R.layout.booklist_item, books);
+                //ArrayAdapter<Catches> adapter = new ArrayAdapter<>(getBaseContext(), android.R.layout.simple_list_item_1, catchess);
+                CatchesListItemAdapter adapter = new CatchesListItemAdapter(getBaseContext(), R.layout.activity_catches_list_item, catchess);
                 listView.setAdapter(adapter);
                 listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                     @Override

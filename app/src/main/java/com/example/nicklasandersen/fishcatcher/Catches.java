@@ -1,6 +1,9 @@
 package com.example.nicklasandersen.fishcatcher;
 
 import java.io.Serializable;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class Catches implements Serializable {
     private int id;

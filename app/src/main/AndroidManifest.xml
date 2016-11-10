@@ -3,6 +3,9 @@
     package="com.example.nicklasandersen.fishcatcher">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
     <application
         android:allowBackup="true"
@@ -18,7 +21,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".CatchesActivity" />
-        <activity android:name=".AddActivity"></activity>
+        <activity android:name=".AddActivity" />
+        <activity android:name=".CatchesListItemAdapter"></activity>
     </application>
 
 </manifest>
